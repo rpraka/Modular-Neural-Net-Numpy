@@ -1,7 +1,7 @@
 # Modular Neural Network Framework with Numpy
 A quick implementation of a basic modular neural network framework using only numpy.
 
-Derived from the architechture described by Rafay Khan [here.](https://medium.com/towards-artificial-intelligence/nothing-but-numpy-understanding-creating-neural-networks-with-computational-graphs-from-scratch-6299901091b0)
+Derived from the architecture described by Rafay Khan [here.](https://medium.com/towards-artificial-intelligence/nothing-but-numpy-understanding-creating-neural-networks-with-computational-graphs-from-scratch-6299901091b0)
 
 **Purpose**: To solidify my understanding of various ANN concepts.
 
