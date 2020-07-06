@@ -2,7 +2,7 @@
 A quick implementation of a basic modular neural network framework using only numpy.
 
 Derived from the architechture described by Rafay Khan here:
-https://towardsdatascience.com/nothing-but-numpy-understanding-creating-binary-classification-neural-networks-with-e746423c8d5c
+https://medium.com/towards-artificial-intelligence/nothing-but-numpy-understanding-creating-neural-networks-with-computational-graphs-from-scratch-6299901091b0
 
 **Purpose**: To solidify my understanding of various ANN concepts.
 
