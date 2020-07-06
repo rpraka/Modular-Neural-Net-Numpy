@@ -2,10 +2,11 @@
 A quick implementation of a basic modular neural network framework using numpy.
 
 Derived from the architechture described by Rafay Khan here:
+https://towardsdatascience.com/nothing-but-numpy-understanding-creating-binary-classification-neural-networks-with-e746423c8d5c
 
-Purpose: To solidify my understanding of various ANN concepts.
+**Purpose**: To solidify my understanding of various ANN concepts.
 
-Features: 
+**Features**: 
 <ul>
     <li>Create any (N,M)-dimensional linear layers</li>
     <li>Designed to compute vectorized operations, allowing batch and mini-batch inputs</li>
