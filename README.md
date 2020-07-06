@@ -1,5 +1,5 @@
 # Modular Neural Network Framework with Numpy
-A quick implementation of a basic modular neural network framework using numpy.
+A quick implementation of a basic modular neural network framework using only numpy.
 
 Derived from the architechture described by Rafay Khan here:
 https://towardsdatascience.com/nothing-but-numpy-understanding-creating-binary-classification-neural-networks-with-e746423c8d5c
