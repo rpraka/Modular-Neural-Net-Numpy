@@ -15,4 +15,4 @@ https://towardsdatascience.com/nothing-but-numpy-understanding-creating-binary-c
     <li>Supports random-normal, Xavier and He weight intiialization strategies </li>
 </ul>
 
-**Tested on a non-linearly separable XOR classification problem**
+**Tested on a non-linearly separable XOR binary classification problem**
