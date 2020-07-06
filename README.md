@@ -9,7 +9,7 @@ https://medium.com/towards-artificial-intelligence/nothing-but-numpy-understandi
 **Features**: 
 <ul>
     <li>Create any (N,M)-dimensional linear layers</li>
-    <li>Designed to compute vectorized operations, allowing batch and mini-batch inputs</li>
+    <li>Designed to utilize vectorized operations, allowing batch and mini-batch inputs</li>
     <li>ReLU, Leaky ReLU, Tanh and Sigmoid activation layers </li>
     <li>Implemented batch/mini-batch gradient descent, momentum, rms-prop and adam optimizers</li>
     <li>Supports random-normal, Xavier and He weight intiialization strategies </li>
