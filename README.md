@@ -14,3 +14,5 @@ https://towardsdatascience.com/nothing-but-numpy-understanding-creating-binary-c
     <li>Implemented batch/mini-batch gradient descent, momentum, rms-prop and adam optimizers</li>
     <li>Supports random-normal, Xavier and He weight intiialization strategies </li>
 </ul>
+
+**Tested on a non-linearly seperable XOR classification problem**
