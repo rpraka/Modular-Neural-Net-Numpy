@@ -15,4 +15,4 @@ https://medium.com/towards-artificial-intelligence/nothing-but-numpy-understandi
     <li>Supports random-normal, Xavier and He weight intiialization strategies </li>
 </ul>
 
-**Tested on a non-linearly separable XOR binary classification problem, achieved 100% accuracy as expected.**
+**Tested on a non-linearly separable XOR binary classification problem and achieved 100% accuracy as expected.**
