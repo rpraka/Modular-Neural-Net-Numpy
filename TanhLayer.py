@@ -10,10 +10,7 @@ class TanhLayer:
             forward(Z): Z = raw output of previous layer
             backward(upstream_grad): upstream grad = gradient chained from suceeding layers
     """
-
-    def __init__(self):
-        pass
-
+    
     def forward(self, Z):
         """
         compute tanh(Z)

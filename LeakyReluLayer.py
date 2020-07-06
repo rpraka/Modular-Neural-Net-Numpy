@@ -13,9 +13,6 @@ class LeakyReluLayer:
             backward(upstream_grad): upstream grad = gradient chained from suceeding layers
     """
 
-    def __init__(self):
-        pass
-
     def forward(self, Z):
         """
         ReLU(Z) = 0 if Z <= 0, = Z if Z > 0

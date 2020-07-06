@@ -14,6 +14,7 @@ Network structure is:
     input -> linear -> sigmoid -> linear -> sigmoid = output
 """
 
+# define a set of inputs and targets for XOR classification problem
 X = np.array([
     [0, 0],
     [0, 1],
@@ -27,22 +28,25 @@ Y = np.array([
     [1],
     [0]
 ])
+
 X_train = X.T
 Y_train = Y.T
 
-
+#Initializize network structure
 Z1 = LinearLayer(input_shape=X_train.shape, n_out=3, init_style="He")
 A1 = TanhLayer()
 Z2 = LinearLayer(input_shape=(Z1.n_out,Z1.n_in), n_out=1, init_style="He")
 A2 = SigmoidLayer()
 
+#Define learning rate and number of epochs
 learning_rate = 0.1
-epochs = 5000
+n_epochs = 5000
+
+#Initialize costs list
 costs = []
-np.random.seed(0)
 
 # Training loop
-for epoch in range(1, epochs+1):
+for epoch in range(1, n_epochs+1):
     # Forward prop
     Z1.forward(X_train)
     A1.forward(Z1.Z)
@@ -64,6 +68,12 @@ for epoch in range(1, epochs+1):
     Z2.Adam_step(learning_rate=learning_rate)
     Z1.Adam_step(learning_rate=learning_rate)
 
-print(A2.A)
+#print most recent output since network completed training
+print("Latest Output: {}".format(A2.A))
+
+#Plot cost vs. epoch number
 plt.plot(range(0, len(costs)), costs)
+plt.title("Cost vs. Epoch Number")
+plt.xlabel("Epoch Number")
+plt.ylabel("Cost")
 plt.show()

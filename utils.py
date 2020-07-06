@@ -34,7 +34,7 @@ def initialize_params(n_in, n_out, init_style="default"):
         """
         Intialization strategy to preserve distribution of weights throughout depth of network for ReLU activation
         """
-        # sample weights from normal distribution, mean: 0, var: 2/n_in
+        # sample weights from normal distribution, mean: 0, var: 2/n_in, where n_in is number of inputs from previous layer
         params["W"] = np.random.randn(n_out, n_in) * np.sqrt(2 / n_in)
 
         return params
