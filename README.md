@@ -1,4 +1,4 @@
-#Modular Neural Network Framework with Numpy
+# Modular Neural Network Framework with Numpy
 A quick implementation of a basic modular neural network framework using numpy.
 
 Derived from the architechture described by Rafay Khan here:
