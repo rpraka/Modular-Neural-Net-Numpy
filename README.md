@@ -3,7 +3,7 @@ Implementation of a modular linear neural network framework using only NumPy.
 
 Derived from the architecture in Rafay Khan's post [here.](https://medium.com/towards-artificial-intelligence/nothing-but-numpy-understanding-creating-neural-networks-with-computational-graphs-from-scratch-6299901091b0)
 
-**Purpose**: To solidify my understanding of various ANN concepts.
+**Purpose**: To solidify my understanding of the fundamentals behind various ANN concepts.
 
 **Features**: 
 <ul>
