@@ -14,6 +14,6 @@ Implementation of a modular linear neural network framework using only NumPy.
 
 **Tested on a non-linearly separable XOR binary classification problem and achieved 100% accuracy as expected.**
 
-### References
+#### References
 - Derived from the architecture described [here.](https://medium.com/towards-artificial-intelligence/nothing-but-numpy-understanding-creating-neural-networks-with-computational-graphs-from-scratch-6299901091b0)
 - [Relevant Coursework](http://cs231n.stanford.edu/)
