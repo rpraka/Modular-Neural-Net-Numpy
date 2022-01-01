@@ -16,4 +16,4 @@ Implementation of a modular linear neural network framework using only NumPy.
 
 #### References
 - [Rafay Khan](https://medium.com/towards-artificial-intelligence/nothing-but-numpy-understanding-creating-neural-networks-with-computational-graphs-from-scratch-6299901091b0)
-- **Relevant Coursework**: [CS231](http://cs231n.stanford.edu/), [Deeplearning.ai](https://www.coursera.org/specializations/deep-learning)
+- [CS231](http://cs231n.stanford.edu/), [Deeplearning.ai](https://www.coursera.org/specializations/deep-learning)
