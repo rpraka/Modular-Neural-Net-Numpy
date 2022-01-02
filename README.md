@@ -1,7 +1,7 @@
 # Modular Neural Network Framework with NumPy
 Implementation of a modular linear neural network framework using only NumPy.
 
-**Purpose**: To solidify my understanding of the fundamental details behind implementing dynamic neural network architectures.
+**Purpose**: To solidify my understanding of the fundamental details behind dynamic neural network architectures.
 
 **Features**: 
 <ul>
