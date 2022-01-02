@@ -12,7 +12,7 @@ Implementation of a modular linear neural network framework using only NumPy.
     <li>Supports random-normal, Xavier and He weight intiialization strategies </li>
 </ul>
 
-**Tested on a non-linearly separable XOR binary classification problem and achieved 100% accuracy as expected.**
+Tested on a non-linearly separable XOR binary classification problem and achieved 100% accuracy as expected.
 
 **References**:
 - [Rafay Khan](https://medium.com/towards-artificial-intelligence/nothing-but-numpy-understanding-creating-neural-networks-with-computational-graphs-from-scratch-6299901091b0)
